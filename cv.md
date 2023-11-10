@@ -1,4 +1,4 @@
-## [rsschool-cv](https://daryakolenchenko.github.io/rsschool-cv/cv)
+## [rsschool-cv](https://dariechka.github.io/rsschool-cv/)
 # Darya Kolenchenko
 # Contact Info
 - Address: Warsaw, Poland
