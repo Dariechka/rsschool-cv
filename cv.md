@@ -30,3 +30,15 @@ function factorial(n) {
       return result;
   }
 ```
+
+## Courses
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
+* Course on modern CSS/HTML from [learn.javascript.ru](https://learn.javascript.ru/courses/htmlcss)
+* Course "JavaScript/​DOM/​Interfaces" for beginners from [learn.javascript.ru](https://learn.javascript.ru/courses/jsbasic)
+
+## Projects
+
+## Languages
+* English - Intermediate
+* Russian - Native
+* Polish - Basic
