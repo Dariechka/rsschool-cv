@@ -42,3 +42,9 @@ function factorial(n) {
 * English - Intermediate
 * Russian - Native
 * Polish - Basic
+
+[Link to my github](https://github.com/Dariechka)
+
+## CREATED IN 2024
+
+[Link to RS School](https://rs.school/)
