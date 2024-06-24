@@ -37,6 +37,8 @@ function factorial(n) {
 * Course "JavaScript/​DOM/​Interfaces" for beginners from [learn.javascript.ru](https://learn.javascript.ru/courses/jsbasic)
 
 ## Projects
+[The library of components](https://github.com/Dariechka/htmlcss-20240412_daria-kolenchenko)
+![Histogram](Histogram.png)
 
 ## Languages
 * English - Intermediate
