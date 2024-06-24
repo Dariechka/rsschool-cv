@@ -40,6 +40,9 @@ function factorial(n) {
 [The library of components](https://github.com/Dariechka/htmlcss-20240412_daria-kolenchenko)
 ![Histogram](Histogram.png)
 
+[JS proect of restaurant](https://github.com/Dariechka/jsbasic-20240520_daria-kolenchenko)
+![JS proect of restaurant](JS%20project%20of%20restaurant.png)
+
 ## Languages
 * English - Intermediate
 * Russian - Native
