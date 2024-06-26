@@ -208,6 +208,25 @@ html, body {
     width: 450px;
 }
 
+.project__exampls {
+    width: 800px;
+    height: 250px;
+    display: flex;
+}
+
+.project__exampls_exampl{
+    height: 100%;
+    width: 50%;
+}
+
+.project__exampls_item {
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .footer {
     width: var(--big-container-width);
     padding-left: 80px;
