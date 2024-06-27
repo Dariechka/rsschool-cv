@@ -26,6 +26,8 @@ html, body {
     padding-left: 80px;
     display: flex;
     align-items: flex-end;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .header__purple {
@@ -114,6 +116,8 @@ html, body {
 
 .preview {
     width: var(--big-container-width);
+    margin: 0 auto;
+    overflow: hidden;
     padding-left: 80px;
     display: flex;
 }
@@ -230,6 +234,8 @@ html, body {
 .footer {
     width: var(--big-container-width);
     padding-left: 80px;
+    margin: 0 auto;
+    overflow: hidden;
     display: flex;
 }
 
