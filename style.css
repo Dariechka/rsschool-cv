@@ -7,7 +7,7 @@
     --pink: #DDD0D1;
     --purple: #B39E9F;
     --grey-1: #F8F9FA;
-    --big-container-width: 1500px;
+    --big-container-width: 1280px;
     --container-width: 800px;
 }
 
@@ -19,21 +19,23 @@ html, body {
     box-sizing: border-box;
 }
 
-.header {
+.container {
     width: var(--big-container-width);
-    min-height: 300px;
-    background-color: var(--pink);
-    padding-left: 80px;
-    display: flex;
-    align-items: flex-end;
-    overflow: hidden;
     margin: 0 auto;
+    padding-left: 30px;
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    background-color: var(--pink);
+    overflow: hidden;
 }
 
 .header__purple {
     background-color: var(--purple);
     min-height: 300px;
-    flex-basis: 450px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -61,15 +63,19 @@ html, body {
     display: flex;
     padding: 0px;
     gap: 40px;
+    margin: 0px;
+    height: 35px;
+}
+
+.tabs__list_elem {
+    text-decoration: none;
     font-family: "Lora", serif;
     font-weight: 300;
     font-style: normal;
     line-height: 24px;
     font-size: 16px;
-    margin: 0px;
     list-style-type: none;
-    cursor: pointer;
-    height: 35px;
+    color: var(--black);
 }
 
 .tabs__list_elem:after {
@@ -98,7 +104,8 @@ html, body {
 
 .header__container {
     width: var(--container-width);
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-top: 60px;
 }
 
 .header__title_name {
@@ -114,17 +121,9 @@ html, body {
     margin-bottom: 40px;
 }
 
-.preview {
-    width: var(--big-container-width);
-    margin: 0 auto;
-    overflow: hidden;
-    padding-left: 80px;
-    display: flex;
-}
-
 .main__purple {
     padding-top: 50px;
-    flex-basis: 450px;
+    flex-basis: 400px;
     background-color: var(--purple);
 }
 
@@ -174,7 +173,7 @@ html, body {
 
 .main__container {
     width: var(--container-width);
-    padding-top: 80px;
+    padding-top: 50px;
     padding-left: 50px;
     display: flex;
     flex-flow: column wrap;
@@ -231,16 +230,8 @@ html, body {
     background-position: center;
 }
 
-.footer {
-    width: var(--big-container-width);
-    padding-left: 80px;
-    margin: 0 auto;
-    overflow: hidden;
-    display: flex;
-}
-
 .footer__purple {
-    flex-basis: 450px;
+    flex-basis: 400px;
     background-color: var(--purple);
 }
 
