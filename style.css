@@ -26,16 +26,19 @@ html, body {
     display: flex;
 }
 
+.purple {
+    padding-top: 50px;
+    flex-basis: 400px;
+    background-color: var(--purple);
+}
+
 .header {
     width: 100%;
     background-color: var(--pink);
     overflow: hidden;
 }
 
-.header__purple {
-    background-color: var(--purple);
-    min-height: 300px;
-    width: 400px;
+.purple__header {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -55,16 +58,41 @@ html, body {
     object-fit: cover;
 }
 
+.header__container {
+    width: var(--container-width);
+    padding-left: 30px;
+    padding-top: 60px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header__title_name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.header__title_position {
+    font-family: "Lora", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin: 0px 0px 40px;
+}
+
 .tabs__nav {
-    margin: 0 auto;
+    margin: 0;
 }
 
 .tabs__menu {
+    list-style-type: none;
     display: flex;
     padding: 0px;
     gap: 40px;
     margin: 0px;
-    height: 35px;
 }
 
 .tabs__list_elem {
@@ -74,7 +102,6 @@ html, body {
     font-style: normal;
     line-height: 24px;
     font-size: 16px;
-    list-style-type: none;
     color: var(--black);
 }
 
@@ -102,32 +129,7 @@ html, body {
     animation-fill-mode: forwards;
 }
 
-.header__container {
-    width: var(--container-width);
-    padding-left: 30px;
-    padding-top: 60px;
-}
-
-.header__title_name {
-    font-weight: 500;
-    font-size: 36px;
-}
-
-.header__title_position {
-    font-family: "Lora", serif;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 24px;
-    margin-bottom: 40px;
-}
-
-.main__purple {
-    padding-top: 50px;
-    flex-basis: 400px;
-    background-color: var(--purple);
-}
-
-.contacts__title {
+.purple__title {
     padding-top: 30px;
     margin: 0px;
     color: var(--white);
@@ -138,18 +140,7 @@ html, body {
     padding-left: 40px;
 }
 
-.sumary__title {
-    padding-top: 80px;
-    padding-left: 40px;
-    margin: 0px;
-    color: var(--white);
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 24px;
-}
-
-.title__list_contacts {
+.purple__list {
     list-style-type: none;
     color: var(--white);
     font-family: "Lora", serif;
@@ -159,10 +150,17 @@ html, body {
     font-size: 16px;
 }
 
-.sumary__text {
+.purple__item {
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+    gap: 10px;
+}
+
+.purple__text {
     padding-left: 40px;
     padding-right: 10px;
-    list-style-type: none;
+    margin: 20px 0px;
     font-family: "Lora", serif;
     font-weight: 300;
     font-style: normal;
@@ -180,17 +178,14 @@ html, body {
     gap: 30px;
 }
 
-.title__list {
-    color: var(--black);
-    font-family: "Lora", serif;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 24px;
-    font-size: 16px;
+.block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.title {
-    color: var( --black);
+.block__title {
+    color: var(--black);
     margin: 0px;
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -198,8 +193,13 @@ html, body {
     font-size: 24px;
 }
 
-.tabs__list {
-    list-style-type: none;
+.list {
+    color: var(--black);
+    font-family: "Lora", serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 16px;
 }
 
 .code__title_description {
@@ -234,15 +234,14 @@ html, body {
     background-position: center;
 }
 
-.footer__purple {
-    flex-basis: 400px;
-    background-color: var(--purple);
-}
-
 .footer__container {
     width: var(--container-width);
-    padding-left: 50px;
+    padding-left: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.school-logo {
+    width: 200px;
 }
