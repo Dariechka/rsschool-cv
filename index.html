@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="purple purple__header">
+                <div class="avatar">
+                    <img src="./photo.jpg" alt="my avatar" class="avatar__img">
+                </div>
+            </div>
+            <div class="header__container">
+                <h1 class="header__title_name">DARYA<br>KOLENCHENKO</h1>
+                <h2 class="header__title_position">future front-end developer</h2>
+                <nav class="tabs__nav">
+                    <ul class="tabs__menu">
+                        <li><a href="#about" class="tabs__list_elem">About</a></li>
+                        <li><a href="#code" class="tabs__list_elem">Code</a></li>
+                        <li><a href="#project" class="tabs__list_elem">Project</a></li>
+                        <li><a href="#contacts" class="tabs__list_elem">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="preview">
+        <div class="container">
+            <div class="purple">
+                <section id="contacts">
+                    <h2 class="purple__title">CONTACT ME</h2>
+                    <ul class="purple__list">
+                        <li class="purple__item"><svg width="16" height="16" viewBox="0 0 16 16"><use href="./icon.svg#home"></use></svg>Warsaw, Poland</li>
+                        <li class="purple__item"><svg width="16" height="16" viewBox="0 0 16 16"><use href="./icon.svg#phone"></use></svg>+48 515 997 760</li>
+                        <li class="purple__item"><svg width="16" height="16" viewBox="0 0 16 16"><use href="./icon.svg#mail"></use></svg>daria.kolenchenko@gmail.com</li>
+                        <li class="purple__item"><svg width="16" height="16" viewBox="0 0 16 16"><use href="./icon.svg#gitHub"></use></svg>Dariechka</li>
+                        <li class="purple__item"><svg width="16" height="16" viewBox="0 0 16 16"><use href="./icon.svg#telegram"></use></svg>@darechkako</li>
+                    </ul>
+                </section>
+                <section id="about">
+                    <h2 class="purple__title">ABOUT ME</h2>
+                    <p class="purple__text">I'm from Belarus, but now live in Poland. I have graduated Belarusian state university, chemistry department and have worked as scientist in Belarus academy of sciences, then as master-data specialist in international company Danone. I really like studying new things and achieving new skills.</p>
+                </section>
+            </div>
+            <div class="main__container">
+                <div class="skills">
+                    <div class="block">
+                        <svg width="24" height="24" viewBox="0 0 256 256">
+                            <use href="./icon.svg#arrow"></use>
+                        </svg>
+                        <h2 class="block__title">Skills and Proficiency</h2>
+                    </div>
+                    <ul class="list">
+                        <li>HTML, CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                        <li>SAP</li>
+                    </ul>
+                </div>
+                <div id="code" class="code">
+                    <div class="block">
+                        <svg width="24" height="24" viewBox="0 0 256 256">
+                            <use href="./icon.svg#arrow"></use>
+                        </svg>
+                        <h2 class="block__title">Code example</h2>
+                    </div>
+                    <p class="code__title_description">Write a function that returns the factorial of a given number.</p>
+                    <pre class="code__pre">
+  <code>
+  function factorial(n) {
+      let result = 1;
+      for (let i = n; i &gt;= 1; i -= 1) {
+          result = result * i;
+      }
+      return result;
+  }</code>
+                    </pre>
+                </div>
+                <div class="courses">
+                    <div class="block">
+                        <svg width="24" height="24" viewBox="0 0 256 256">
+                            <use href="./icon.svg#arrow"></use>
+                        </svg>
+                        <h2 class="block__title">Courses</h2>
+                    </div>
+                    <ul class="list">
+                        <li>JavaScript Manual on <a href="https://learn.javascript.ru" rel="learn.js manual" target="_blank">learn.javascript.ru</a> (in progress)</li>
+                        <li>Course on modern CSS/HTML from <a href="https://learn.javascript.ru/courses/htmlcss" rel="learn.js html and CSS course" target="_blank">learn.javascript.ru</a></li>
+                        <li>Course "JavaScript/​DOM/​Interfaces" for beginners from <a href="https://learn.javascript.ru/courses/jsbasic" rel="learn.js jsbasic course" target="_blank">learn.javascript.ru</a></li>
+                    </ul>
+                </div>
+                <div id="project" class="project">
+                    <div class="block">
+                        <svg width="24" height="24" viewBox="0 0 256 256">
+                            <use href="./icon.svg#arrow"></use>
+                        </svg>
+                        <h2 class="block__title">Projects</h2>
+                    </div>
+                    <div class="project__exampls">
+                        <div class="project__exampls_exampl">
+                            <a href="https://github.com/Dariechka/htmlcss-20240412_daria-kolenchenko" rel="html project" target="_blank">
+                                <img src="./Histogram.png" alt="Histogram" class="project__exampls_item">
+                            </a>
+                        </div>
+                        <div class="project__exampls_exampl">
+                            <a href="https://dariechka.github.io/" rel="js project" target="_blank">
+                                <img src="./restaurant.png" alt="JS project of restaurant" class="project__exampls_item">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="languages">
+                    <div class="block">
+                        <svg width="24" height="24" viewBox="0 0 256 256">
+                            <use href="./icon.svg#arrow"></use>
+                        </svg>
+                        <h2 class="block__title">Languages</h2>
+                    </div>
+                    <ul class="list">
+                        <li>English - Intermediate</li>
+                        <li>Russian - Native</li>
+                        <li>Polish - Basic</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="purple"></div>
+            <div class="footer__container">
+                <a href="https://github.com/Dariechka" rel="my-github" target="_blank">
+                    <svg width="98" height="96">
+                        <use href="./icon.svg#gitHubBig"></use>
+                   </svg>
+                </a>
+                <p class="title">CREATED IN 2024</p>
+                <a href="https://rs.school/" rel="rs-school-logo" target="_blank">
+                    <img src="./logo-rsschool3.png" alt="school-logo" class="school-logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
