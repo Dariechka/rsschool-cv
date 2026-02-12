@@ -21,3 +21,103 @@ html, body {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+.container {
+    max-width: var(--big-container-width);
+    overflow: hidden;
+    margin: 0 auto;
+    container: container / inline-size;
+    display: flex;
+}
+
+@keyframes go {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@container container (min-width: 1000px) {
+    .purple {
+        padding: 1rem 0;
+        flex-basis: calc(100cqw / 4);
+        background-color: var(--purple);
+
+        &.purple__header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        & .avatar {
+            width: calc(100cqw / 6);
+            height: calc(100cqw / 6);
+            border-radius: 50%;
+            border: 2px solid var(--white);
+            overflow: hidden;
+        }
+
+        & .avatar__img {
+            height: 100%;
+            object-fit: cover;
+            aspect-ratio: 1/1;
+        }
+    }
+
+    .pink {
+        width: calc(100cqw * 0.75);
+        background-color: var(--pink);
+        padding-left: 1.8rem;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+
+    .title_name {
+        margin: 2rem 0 0;
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+
+    .title_position {
+        font-family: "Lora", serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 1.3rem;
+    }
+
+    .tabs__menu {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+        gap: 2.5rem;
+        margin: 0;
+    }
+
+    .tabs__list_elem {
+        text-decoration: none;
+        font-family: "Lora", serif;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 100%;
+        font-size: 1.1rem;
+        color: var(--black);
+    }
+
+    .tabs__list_elem:after {
+        content: '';
+        display: block;
+        position: relative;
+        top: 8%;
+        height: 4px;
+        background-color: var(--black);
+        transform: scaleX(0);
+    }
+
+    .tabs__list_elem:hover:after {
+        animation: go 250ms linear;
+        animation-fill-mode: forwards;
+    }
+}
