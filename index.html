@@ -6,37 +6,218 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./favicon.png" type="image/x-icon">
 </head>
 
 <body>
 <header>
   <div class="container">
-    <div class="purple">
+    <div class="left">
       <div class="avatar">
         <img src="./photo.jpg" alt="my avatar" class="avatar__img">
       </div>
     </div>
-    <div class="pink">
-      <h1 class="title_name">DARYA<br>KALENCHANKA</h1>
-      <h2 class="title_position">Junior Front-end Developer</h2>
+    <div class="right right__header">
+      <h1 class="title">DARYA<br>KALENCHANKA</h1>
+      <h2 class="title__position">Junior Front-end Developer</h2>
       <nav>
-        <ul class="tabs__menu">
+        <ul class="tabs__list">
           <li><a href="#about" class="tabs__list_elem">About</a></li>
-          <li><a href="#skills" class="tabs__list_elem">Skills</a></li>
-          <li><a href="#project" class="tabs__list_elem">Project</a></li>
           <li><a href="#contacts" class="tabs__list_elem">Contacts</a></li>
+          <li><a href="#skills" class="tabs__list_elem">Skills</a></li>
+          <li><a href="#courses" class="tabs__list_elem">Courses</a></li>
+          <li><a href="#project" class="tabs__list_elem">Project</a></li>
+          <li><a href="#languages" class="tabs__list_elem">Languages</a></li>
         </ul>
       </nav>
     </div>
   </div>
 </header>
 <main>
-  <div class="container"></div>
+  <div class="container">
+    <div class="left left__main">
+      <section id="contacts">
+        <h2 class="title">CONTACT ME</h2>
+        <ul class="contact__list">
+          <li class="contact__list_item">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <use href="./icon.svg#home"></use>
+            </svg>
+            Warsaw, Poland
+          </li>
+          <li class="contact__list_item">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <use href="./icon.svg#phone"></use>
+            </svg>
+            +48 515 997 760
+          </li>
+          <li class="contact__list_item">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <use href="./icon.svg#mail"></use>
+            </svg>
+            daria.kolenchenko@gmail.com
+          </li>
+          <li class="contact__list_item">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <use href="./icon.svg#gitHub"></use>
+            </svg>
+            Dariechka
+          </li>
+          <li class="contact__list_item">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <use href="./icon.svg#telegram"></use>
+            </svg>
+            @darechkako
+          </li>
+          <li class="contact__list_item">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <use href="./icon.svg#discord"></use>
+            </svg>
+            Daria(@Dariechka)
+          </li>
+        </ul>
+      </section>
+      <section id="about">
+        <h2 class="title">ABOUT ME</h2>
+        <p class="text">Enthusiastic and detail-oriented Junior Frontend Developer with a strong foundation in
+          HTML,
+          CSS, JavaScript, and Angular. I also someone who takes steps to complete tasks without
+          supervision. I have background in science and worked with SAP as masterdata specialist.
+          Passionate about building responsive, user-friendly websites and applications. Eager to
+          contribute to a dynamic team while continuing to grow as a developer.</p>
+      </section>
+    </div>
+    <div class="right">
+      <div class="information">
+        <div class="information__top">
+          <svg width="24" height="24" viewBox="0 0 256 256">
+            <use href="./icon.svg#arrow"></use>
+          </svg>
+          <h2 class="title">Education and Work experience</h2>
+        </div>
+        <ul class="information__list">
+          <li>
+            <h3 class="information__list_text_bold">BELARUSIAN STATE UNIVERSITY, FACULTY OF CHEMISTRY</h3>
+            <p>2012 - 2017</p>
+            <p>Department of Radiation Chemistry</p>
+          </li>
+          <li>
+            <h3 class="information__list_text_bold">BELARUS ACADEMY OF SCIENCES</h3>
+            <p>2017 - 2018</p>
+            <p>Institute of Chemistry of New Materials, Researcher</p>
+          </li>
+          <li>
+            <h3 class="information__list_text_bold">DANONE</h3>
+            <p>2018 - 2022</p>
+            <p>Product master-data specialist</p>
+          </li>
+        </ul>
+      </div>
+      <div id="skills" class="information">
+        <div class="information__top">
+          <svg width="24" height="24" viewBox="0 0 256 256">
+            <use href="./icon.svg#arrow"></use>
+          </svg>
+          <h2 class="title">Skills and Proficiency</h2>
+        </div>
+        <ul class="information__list">
+          <li>HTML5, JavaScript (ES6+), TypeScript</li>
+          <li>CSS3, SASS</li>
+          <li>Angular v20, RxJS, NgRx</li>
+          <li>Git, GitHub, Webstorm, Figma, Chrome DevTools</li>
+          <li>Vite, Webpack, Prettier, ESLint</li>
+          <li>Responsive Design, REST APIs, JSON, Canvas,
+            Agile/Scrum basics
+          </li>
+          <li>Design Patterns</li>
+          <li>Commercetools</li>
+          <li>SAP (as master-data specialist)</li>
+        </ul>
+      </div>
+      <div id="courses" class="information">
+        <div class="information__top">
+          <svg width="24" height="24" viewBox="0 0 256 256">
+            <use href="./icon.svg#arrow"></use>
+          </svg>
+          <h2 class="title">Courses</h2>
+        </div>
+        <ul class="information__list">
+          <li>
+            <a href="https://app.rs.school/certificate/z0gvwh24" rel="rs-pre-school certificate" target="_blank" class="information__link">RS-SCHOOL JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)</a>
+          </li>
+          <li>
+            <a href="https://app.rs.school/certificate/71ntn24p" rel="rs-school certificate" target="_blank" class="information__link">RS-SCHOOL JAVASCRIPT/FRONT-END 2024Q4</a>
+          </li>
+          <li>
+            <a href="https://app.rs.school/certificate/6el4h7q6" rel="rs-school-angular certificate" target="_blank" class="information__link">RS-SCHOOL Angular</a>
+          </li>
+          <li>
+            <a href="https://learn.javascript.ru/courses/htmlcss" rel="learn.js html and CSS course" target="_blank" class="information__link">Course on modern CSS/HTML from learn.javascript.ru</a>
+          </li>
+          <li>
+            <a href="https://learn.javascript.ru/courses/jsbasic" rel="learn.js jsbasic course" target="_blank" class="information__link">Course "JavaScript/​DOM/​Interfaces" from learn.javascript.ru</a>
+          </li>
+        </ul>
+      </div>
+      <div id="project" class="information">
+        <div class="information__top">
+          <svg width="24" height="24" viewBox="0 0 256 256">
+            <use href="./icon.svg#arrow"></use>
+          </svg>
+          <h2 class="title">Projects</h2>
+        </div>
+        <ul class="information__list">
+          <li>
+            <a href="https://rolling-scopes-school.github.io/dariechka-JSFEPRESCHOOL2024Q2/shelter/" rel="project" target="_blank" class="information__link">Project with adaptive design, js-modules (Shelter)</a>
+          </li>
+          <li>
+            <a href="https://dariechka.github.io" rel="project" target="_blank" class="information__link">Project with adaptive design, js-modules (BANGKOK EXPRESS)</a></li>
+          <li>
+            <a href="https://rolling-scopes-school.github.io/dariechka-JSFE2024Q4/decision-making-tool/#/" rel="project" target="_blank" class="information__link">Project with TS-router, vite, canvas</a>
+          </li>
+          <li>
+            <a href="https://sorcerers-apprentices.netlify.app" rel="project" target="_blank" class="information__link">Ecommerce-application</a>
+          </li>
+        </ul>
+      </div>
+      <div class="information">
+        <div class="information__top">
+          <svg width="24" height="24" viewBox="0 0 256 256">
+            <use href="./icon.svg#arrow"></use>
+          </svg>
+          <h2 class="title">Code example</h2>
+        </div>
+        <ul class="information__list">
+          <li>
+            Create a function that will add numbers together when called in succession.
+            <pre> function add(n) {
+  const sum = (x) => add(n + x);
+  sum.valueOf = () => n;
+  return sum;
+ }</pre>
+          </li>
+        </ul>
+      </div>
+      <div id="languages" class="information">
+        <div class="information__top">
+          <svg width="24" height="24" viewBox="0 0 256 256">
+            <use href="./icon.svg#arrow"></use>
+          </svg>
+          <h2 class="title">Languages</h2>
+        </div>
+        <ul class="information__list">
+          <li>English - Upper-Intermediate</li>
+          <li>Russian - Native</li>
+          <li>Polish - Intermediate</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </main>
 <footer>
   <div class="container">
-    <div class="purple"></div>
-    <div class="pink pink__footer">
+    <div class="left"></div>
+    <div class="right right__footer">
       <a href="https://github.com/Dariechka" rel="my-github" target="_blank">
         <svg width="98" height="96">
           <use href="./icon.svg#gitHubBig"></use>
